@@ -28,7 +28,7 @@ function runSpring(clock, value, dest) {
   const config = {
     toValue: new Value(0),
     damping: 100,
-    mass: 0.5,
+    mass: 1,
     stiffness: 100,
     overshootClamping: false,
     restSpeedThreshold: 0.001,
